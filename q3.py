@@ -7,7 +7,7 @@ flashcards = {
 #### YOUR CODE HERE
 flashcards["6*7"] = "42"
 flashcards["9+10"] = "21"
-flashcards["Solve Unified theory!!!"] = "I know the answer but that sounds like a you problem"
+flashcards["Solve Unified Field Theory!!!"] = "I know the answer but that sounds like a you problem"
 flashcards["Is Project Hail Mary Scientifically Accurate?"] = "Is the Earth flat?"
 # Randomly sample one question
 #### YOUR CODE HERE
@@ -16,8 +16,8 @@ if b == "6*7":
     print(flashcards["6*7"])
 elif b == "9+10":
     print(flashcards["9+10"])
-elif b == "Solve Unified theory!!!":
-    print(flashcards["Solve Unified theory!!!"])
+elif b == "Solve Unified Field Theory!!!":
+    print(flashcards["Solve Unified Field Theory!!!"])
 elif "Is Project Hail Mary Scientifically Accurate?":
     print(flashcards["Is Project Hail Mary Scientifically Accurate?"])
 else:
