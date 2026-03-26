@@ -5,10 +5,23 @@ flashcards = {
 
 # Get a list of keys (questions) from the dictionary
 #### YOUR CODE HERE
-
+flashcards["6*7"] = "42"
+flashcards["9+10"] = "21"
+flashcards["Solve Unified theory!!!"] = "I know the answer but that sounds like a you problem"
+flashcards["Is Project Hail Mary Scientifically Accurate?"] = "Is the Earth flat?"
 # Randomly sample one question
 #### YOUR CODE HERE
-
+b = input("ask a question")
+if b == "6*7":
+    print(flashcards["6*7"])
+elif b == "9+10":
+    print(flashcards["9+10"])
+elif b == "Solve Unified theory!!!":
+    print(flashcards["Solve Unified theory!!!"])
+elif "Is Project Hail Mary Scientifically Accurate?":
+    print(flashcards["Is Project Hail Mary Scientifically Accurate?"])
+else:
+    print("screw you")
 # Use the `input` function to ask the user the question and get their response
 #### YOUR CODE HERE
 
